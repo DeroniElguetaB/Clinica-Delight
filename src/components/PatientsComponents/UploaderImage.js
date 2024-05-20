@@ -5,7 +5,7 @@ import { BiLoaderCircle } from 'react-icons/bi';
 import { FiUploadCloud } from 'react-icons/fi';
 
 const Uploader = ({ setImage, image }) => {
-  const [loading, setLoading] = useState(false);
+  const [loading] = useState(false);
 
   // upload file
   const onDrop = useCallback(async (acceptedFiles) => {

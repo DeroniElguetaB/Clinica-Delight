@@ -8,7 +8,7 @@ import '../../styles/MedicalRecodModal.css'
 
 //MODELO DE RECETAS
 function MedicalRecodModal({ closeModal, isOpen, datas }) {
-  const [isShareOpen, setIsShareOpen] = useState(false);
+  const [setIsShareOpen] = useState(false);
   const buttonClass =
     'bg-subMain flex-rows gap-3 bg-opacity-5 text-subMain rounded-lg border border-subMain border-dashed px-4 py-3 text-sm';
     return (
